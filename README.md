@@ -54,7 +54,7 @@ source .venv/bin/activate   # Linux/macOS
 3. Install dependencies from `pyproject.toml`:
 
 ```bash
-uv pip install
+uv sync
 ```
 
 4. Run the main script:
