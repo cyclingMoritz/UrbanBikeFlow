@@ -18,9 +18,9 @@ This project follows the [Cookiecutter Data Science](https://github.com/drivenda
 ├── notebooks/        # Jupyter notebooks
 ├── reports/          # Generated analysis and figures
 │   └── figures/      # Visual outputs and plots
-├── src/              # Source code
+├── src/urbanbikeflow              # Source code
 │   ├── __init__.py   # Package initialization
-│   └── your_module/  # Main package
+│   └── utilities.py  # Package initialization
 └── pyproject.toml    # Project metadata and dependencies
 ```
 
