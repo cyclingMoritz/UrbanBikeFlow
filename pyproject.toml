@@ -1,0 +1,19 @@
+[project]
+name = "urbanbikeflow"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "cyclingMoritz", email = "luca.liebscht@bsc.es" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "cookiecutter>=2.6.0",
+]
+
+[project.scripts]
+urbanbikeflow = "urbanbikeflow:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
